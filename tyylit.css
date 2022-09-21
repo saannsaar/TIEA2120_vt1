@@ -11,8 +11,8 @@ div > div > div > div {
  align-items: flex-start;
  border-collapse: collapse;
  border: 1px solid black;
- margin: 10px;
-
+ margin: 8px;
+ height: fit-content;
 }
 
 div > div > div:nth-child(1) > table {
@@ -31,6 +31,22 @@ div > div > div:nth-child(2) > form > fieldset {
     text-align: left;
 }
 
+div > div > div:nth-child(2) > form:nth-child(2) > fieldset > fieldset {
+    align-content: left;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    text-align: left;
+}
+
+button {
+    width: fit-content;
+}
+
+input {
+    width : fit-content;
+}
+
 ul {
     padding: 15px;
 }
@@ -38,8 +54,6 @@ ul {
 fieldset {
     border-style: none;
     display: list-item;
-
-
 }
 
 tr {

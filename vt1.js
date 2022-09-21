@@ -102,6 +102,7 @@ let uusisarja = {
 
 
 data.sarjat.push(uusisarja);
+return data;
 
 console.log(data.sarjat);
 
@@ -132,7 +133,7 @@ function poistaJoukkue(data, id) {
   }
 
   console.log(data.joukkueet);
-  return data.joukkeet;
+  return data;
 
 }
 
