@@ -1,0 +1,61 @@
+
+div > div > div {
+    display: flex;
+    flex-direction: row;    
+}
+
+
+div > div > div > div {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ border-collapse: collapse;
+ border: 1px solid black;
+ margin: 10px;
+
+}
+
+div > div > div:nth-child(1) > table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    empty-cells: show;
+    border-top: 1px solid black;
+
+}
+
+div > div > div:nth-child(2) > form > fieldset {
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    text-align: left;
+}
+
+ul {
+    padding: 15px;
+}
+
+fieldset {
+    border-style: none;
+    display: list-item;
+
+
+}
+
+tr {
+    border-collapse: separate;
+    border-top: 1px solid black;
+    max-height: max-content;
+    max-height: min-content;
+    
+}
+th {
+    border-collapse: separate;
+    border-right: 1px solid black;
+    text-align: left;
+}
+td {
+    border-collapse: separate;
+    border-right: 1px solid black;
+}
+
